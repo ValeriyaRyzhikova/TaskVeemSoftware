@@ -3,7 +3,7 @@
 
 class VirtualTest
 {
-private:
+protected:
 	int tc_id;
 	const char* name;
 	virtual void Prep() = 0;
