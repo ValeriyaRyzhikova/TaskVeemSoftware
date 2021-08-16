@@ -1,4 +1,5 @@
-﻿  VirtualTest.cpp
-C:\Users\RVale\source\repos\TaskVeemSoftware\VirtualTest.cpp(29): warning C4715: VirtualTest::Execute: значение возвращается не при всех путях выполнения
-MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
-C:\Users\RVale\source\repos\TaskVeemSoftware\Debug\TaskVeemSoftware.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+﻿  ListFilesTest.cpp
+  VirtualTest.cpp
+  Создание кода...
+C:\Users\RVale\source\repos\TaskVeemSoftware\VirtualTest.cpp(26): warning C4715: VirtualTest::Execute: значение возвращается не при всех путях выполнения
+  TaskVeemSoftware.vcxproj -> C:\Users\RVale\source\repos\TaskVeemSoftware\Debug\TaskVeemSoftware.exe

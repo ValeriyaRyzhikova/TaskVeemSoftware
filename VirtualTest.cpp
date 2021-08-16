@@ -2,9 +2,6 @@
 
 VirtualTest::VirtualTest()
 {
-	name = new char[12];
-	name = "virtual test";
-	tc_id = 0;
 }
 
 VirtualTest::~VirtualTest()
@@ -21,7 +18,7 @@ int VirtualTest::Execute()
 	}
 	catch (const char* massange)
 	{
-		std::cout << "Test " << name << " ended with error: " << massange;
+		std::cout << "Test " << name << " ended with error: " << massange << std::endl;
 		return -1;
 	}
 
