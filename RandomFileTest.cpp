@@ -17,3 +17,12 @@ void RandomFileTest::Prep()
 	if (!memory_size)
 		throw "RAM less them a gigabyte";
 }
+
+void RandomFileTest::Run()
+{
+	std::ofstream file("test.txt");
+	std::mt19937_64 gen;
+	for (int i = 0; i != 1024 * 1024; i++)
+		file << gen() % 2;
+	file.close();
+}
