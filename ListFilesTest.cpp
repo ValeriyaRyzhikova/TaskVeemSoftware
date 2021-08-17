@@ -17,7 +17,7 @@ void ListFilesTest::Run()
 
 ListFilesTest::ListFilesTest()
 {
-	name = new char[12];
+	name = new char[15];
 	name = "list files test";
 	tc_id = 1;
 }

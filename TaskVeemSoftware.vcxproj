@@ -142,11 +142,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ListFilesTest.h" />
+    <ClInclude Include="RandomFileTest.h" />
     <ClInclude Include="VirtualTest.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ListFilesTest.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RandomFileTest.cpp" />
     <ClCompile Include="VirtualTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
