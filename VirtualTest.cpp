@@ -2,11 +2,8 @@
 
 VirtualTest::VirtualTest()
 {
-}
-
-VirtualTest::~VirtualTest()
-{
-	delete[] name;
+	name = "virtual";
+	tcId = VIRTUAL;
 }
 
 int VirtualTest::Execute()

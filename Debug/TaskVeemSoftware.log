@@ -1,5 +1,4 @@
-﻿  ListFilesTest.cpp
-  VirtualTest.cpp
-  Создание кода...
-C:\Users\RVale\source\repos\TaskVeemSoftware\VirtualTest.cpp(26): warning C4715: VirtualTest::Execute: значение возвращается не при всех путях выполнения
+﻿  RandomFileTest.cpp
+C:\Users\RVale\source\repos\TaskVeemSoftware\RandomFileTest.h(5,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\RVale\source\repos\TaskVeemSoftware\RandomFileTest.cpp(15,18): warning C4244: инициализация: преобразование "DWORDLONG" в "int", возможна потеря данных
   TaskVeemSoftware.vcxproj -> C:\Users\RVale\source\repos\TaskVeemSoftware\Debug\TaskVeemSoftware.exe
